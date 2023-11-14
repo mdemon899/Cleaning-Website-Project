@@ -1,5 +1,7 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
 
 /* Common Css */
 * {
@@ -412,3 +414,83 @@ body {
     letter-spacing: 0.3px;
     opacity: 0.7;
 }
+
+/* Our Team Section Start*/
+#our_team_section {
+    background: #fff;
+}
+
+#our_team_top {
+    display: flex;
+    padding: 100px 0 120px 100px;
+}
+
+#our_team_top h4 {
+    color: #121212;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+}
+
+.team_top_right {
+    margin-left: 150px;
+}
+
+.team_top_right p {
+    color: #404852;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+
+.team_top_right a {
+    color: #118AC5;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.346px;
+    text-decoration: none;
+}
+
+#our_team_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_box_container {
+    position: relative;
+}
+
+.our_team_bottom_box_text {
+    position: absolute;
+    bottom: 0;
+    width: 125px;
+    height: 60px;
+    border-top-right-radius: 5px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our_team_bottom_box_text h5 {
+    color: #FE7443;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.our_team_bottom_box_text p {
+    color: #9395A0;
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+/* Our Team Section End*/
