@@ -1,7 +1,7 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
 
 /* Common Css */
 * {
@@ -494,3 +494,135 @@ body {
 }
 
 /* Our Team Section End*/
+
+/* Package Section Start */
+#package_section {
+    padding: 100px 0 120px 85px;
+    background: #fff;
+}
+
+.package_top {
+    display: flex;
+}
+
+.package_top h4 {
+    color: #334047;
+    font-size: 54px;
+    width: 585px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.package_top_right h5 {
+    color: #FE7443;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.package_top_right p {
+    color: #45565F;
+    font-size: 18px;
+    width: 482px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+}
+
+.package_bottom {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.package_item {
+    width: 380px;
+    height: 100%;
+    padding: 40px;
+    border-radius: 32px;
+    background: #CAE8FD;
+}
+
+.package_price {
+    color: #5A717C;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.package_price span {
+    color: #2484B1;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.package_item h5 {
+    color: #334047;
+    font-family: Sora;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.package_item p {
+    color: #45565F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 316px;
+    margin-bottom: 25px;
+}
+
+.package_item ul li {
+    margin-bottom: 15px;
+    color: #334047;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    list-style: none;
+}
+
+.package_item ul li::before {
+    content: "\2022";
+    color: #2484B1;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.package_btn {
+    padding: 14px 30px;
+    border-radius: 28.5px;
+    border: 1.5px solid rgba(255, 186, 24, 0.42);
+    background: #FFBA18;
+    color: #0C0C0C;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 35px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.package_btn:hover {
+    background: rgba(233, 120, 15, 0.986);
+    transition: all ease 0.5s;
+}
+
+.package_item:nth-child(2) {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 65px 0px rgba(0, 0, 0, 0.15);
+}
+
+.package_item:nth-child(3) {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 65px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Package Section End */
